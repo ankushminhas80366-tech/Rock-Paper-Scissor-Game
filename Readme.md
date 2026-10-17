@@ -1,50 +1,67 @@
-🪨📄✂️ Rock, Paper, Scissors CLI Game
+# 🪨📄✂️ Rock, Paper, Scissors Game
 
-A fun, interactive Command Line Interface (CLI) version of the classic "Rock, Paper, Scissors" game built in Python. Play against a computer opponent for as many rounds as you want and see who comes out on top!
+A fun, interactive Command Line Interface (CLI) version of the classic **Rock, Paper, Scissors** game built in Python.
 
-✨ Features
+Play against the computer **or** another player, choose the number of rounds, keep score, and find out who wins overall!
 
-Custom Rounds: Choose exactly how many times you want to play before the game starts.
+## ✨ Features
 
-Round Tracking: Keeps track of which round you are currently playing (e.g., --- Play 1 ---).
+- **Two Game Modes**
+  - Play against the Computer (AI chooses randomly)
+  - Play against another Player (local 2-player mode)
+- **Custom Number of Rounds** – Decide how many rounds you want to play
+- **Round Tracking** – Clearly shows which round is currently being played
+- **Score Keeping** – Tracks points for both sides throughout the game
+- **Overall Winner Announcement** – Declares the final winner (or a tie) at the end
+- **Emoji Feedback** – Engaging terminal output with emojis
+- **Input Validation** – Handles invalid choices gracefully
 
-Score Keeping: Automatically tallies points for both you and the computer after every round.
+## 🚀 How to Run
 
-Overall Winner Announcement: Compares final scores at the end of the game to declare an ultimate winner (or a tie!).
+### Prerequisites
+- Python 3 installed on your system
 
-Fun Emojis: Uses emojis in the terminal to make the text output more engaging.
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ankushminhas80366-tech/Rock-Paper-Scissor-Game.git
+   cd Rock-Paper-Scissor-Game
+   ```
 
-🚀 How to Run the Game
+2. Run the game:
+   ```bash
+   python Main.py
+   ```
+   *(On some systems you may need `python3 Main.py`)*
 
-Prerequisites
+## 🎮 How to Play
 
-You need to have Python 3 installed on your computer. You can download it from python.org.
+1. When the game starts, type `yes` to play or `no` to exit.
+2. Choose your mode:
+   - Type `computer` to play against the AI
+   - Type `player` to play against another person
+3. Enter the number of rounds you want to play.
+4. For each round, type one of: `rock`, `paper`, or `scissors`.
+5. After all rounds, the final scores and overall winner will be displayed.
 
-Instructions
+### Rules
+- Rock beats Scissors
+- Paper beats Rock
+- Scissors beats Paper
+- Same choice = Tie
 
-Save the code in a file named rock_paper_scissors.py (or similar).
+## 📁 Project Structure
 
-Open your terminal or command prompt.
+```
+Rock-Paper-Scissor-Game/
+├── Main.py      # Main game logic
+└── Readme.md    # This file
+```
 
-Navigate to the folder where you saved the file.
+## 👤 Author
 
-Run the following command:
+**ankushminhas80366-tech**
 
-python rock_paper_scissors.py
+---
 
-
-(Note: You might need to use python3 rock_paper_scissors.py depending on your operating system).
-
-🎮 How to Play
-
-When the script runs, it will ask if you want to play. Type yes to start or no to exit.
-
-Enter the number of rounds you want to play (e.g., 3).
-
-For each round, type rock, paper, or scissors and hit Enter.
-
-The computer will randomly choose its move, and the winner of the round will be announced.
-
-At the end of all rounds, the final scores will be revealed!
-
-Note on invalid inputs: If you misspell a choice (like typing "rok" instead of "rock"), the game will notify you of the invalid choice and exit.
+Feel free to fork, star, or contribute!
